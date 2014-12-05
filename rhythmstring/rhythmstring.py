@@ -44,7 +44,7 @@ Example:
 def get_beat_starts(analysis):   
   beat_starts = []
   for b in analysis.beats:
-    beats.append(float(b.start))
+    beat_starts.append(float(b.start))
   return beat_starts
 
 def decode_string(s):
